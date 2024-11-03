@@ -1,0 +1,31 @@
+.list-item {
+  border: 1px solid #b5b7c4;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 350px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  padding: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.appointment-text-container {
+  overflow-x: auto;
+}
+.text-heading {
+  color: #171f46;
+  font-size: medium;
+}
+.appointment-date {
+  color: #b5b7c4;
+}
+.star-button {
+  background-color: transparent;
+  border: 0px;
+  align-self: flex-start;
+  margin-top: 10px;
+  cursor: pointer;
+}
